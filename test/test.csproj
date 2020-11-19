@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\binding\binding.csproj" />
+    <ProjectReference Include="..\src\src.csproj" />
   </ItemGroup>
 
 </Project>

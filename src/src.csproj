@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>ion_csharp</RootNamespace>
+    <RootNamespace>ion</RootNamespace>
+    <AssemblyName>ion-csharp</AssemblyName>
   </PropertyGroup>
 
 </Project>

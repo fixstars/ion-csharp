@@ -57,12 +57,12 @@ public class Ion
             Marshal.FreeHGlobal(ptr);
         }
 
-        public ~Port()
+        ~Port()
         {
-            if (handle! =IntPtr.Zero)
+            if (handle !=IntPtr.Zero)
             {
-
-            }
+                NativeMethods.ion_port_destroy(handle);
+    }
         }
     }
 
