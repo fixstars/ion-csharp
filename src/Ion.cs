@@ -393,7 +393,7 @@ public class Ion
         {
             if (obj != IntPtr.Zero)
             {
-                NativeMethods.ion_builder_destroy(obj);
+                NativeMethods.ion_buffer_destroy(obj);
             }
         }
 
