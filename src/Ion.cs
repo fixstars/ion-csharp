@@ -477,6 +477,14 @@ public class Ion
             }
         }
 
+        public void Set(Port p, bool v)
+        {
+            if (NativeMethods.ion_port_map_set_u1(obj, p.obj, v) != 0)
+            {
+                throw new InvalidOperationException();
+            }
+        }
+
         public void Set(Port p, Byte v)
         {
             if (NativeMethods.ion_port_map_set_u8(obj, p.obj, v) != 0)
